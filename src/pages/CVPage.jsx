@@ -10,7 +10,7 @@ function CVPage() {
             filename: "cv.pdf",
             jsPDF: { format: "a4", orientation: "portrait" },
         };
-        html2pdf().from(element).save("cv.pdf");
+        html2pdf().opt(opt).from(element).save("cv.pdf");
     };
     const [cv, setCv] = useState({
         info: {
