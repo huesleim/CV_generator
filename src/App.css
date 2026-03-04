@@ -31,7 +31,7 @@
 .preview {
     flex: 20;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: white;;
     overflow-y: auto;
     color: #333;
 }
